@@ -15,3 +15,17 @@ class Solution {
     return ans;
   }
 }
+// public List<List<Integer>> generate(int numRows) {
+    //     List<List<Integer>> list = new ArrayList<>();
+    //     int num;
+    //     for(int i=0; i<numRows; i++){
+    //         list.add(new ArrayList<Integer>(i+1));
+    //         num =1;
+    //         for(int j=0; i<=i; j++){
+    //             list.get(i).add(j,num);
+    //             num = num*(i-j)/(j+1);
+    //         }
+    //     }
+    //     return list;
+    // }
+    //Memory Limit Exceeded
