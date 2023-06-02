@@ -5,6 +5,7 @@ class Solution {
         int high = nums.length-1;
         //based on dutch national flag algo
         while(mid <= high){
+            //if the element we r at is zero, so we need to push it to the left side
             if(nums[mid] == 0){
             int temp = nums[low];
             nums[low] = nums[mid];
